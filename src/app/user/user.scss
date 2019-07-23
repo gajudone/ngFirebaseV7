@@ -1,0 +1,22 @@
+.header{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.row{
+  margin-top: 10px;
+}
+
+.image {
+  width: 100%
+}
+
+a { text-decoration: none;} a:hover { text-decoration: none;}
+
+.navbar-inverse { background: #0B1541;}
+
+ a {
+  color: white; font-weight: bold; font-size: 18px; cursor: pointer;
+}
+ .active a{ background: rgb(118, 190, 238); color: white; padding: 20px; transition: 0.5s; }

@@ -1,0 +1,18 @@
+<nav class="navbar navbar-default navbar-static-top navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <ul class="list-inline">
+      <li routerLinkActive="active" class="navbar-text navbar-link" routerLink="Employees"> <a>
+        <span class="glyphicon glyphicon-user"></span> Employees</a></li>
+      <li routerLinkActive="active" class="navbar-text navbar-link" routerLink="AddEmployees"><a>
+        <span class="glyphicon glyphicon-plus"></span> Add New Customer</a></li>
+      <li routerLinkActive="active" style="float: right" class="navbar-text navbar-right navbar-link"><a  (click)="logout()" ><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>  
+<div style="margin-top: 50px;min-height: 490px;">
+  <router-outlet></router-outlet>
+</div>
+<div style="background:#2c4626;height: 50px;position:fixed;bottom:0px;width: 100%;">
+  <p style="text-align: center; line-height: 50px;color:white;font-weight: bold;"> Copyright © 2019 Your Company | Design: Template Mo </p>
+</div>
+<!-- <app-employees style="float: left"></app-employees> -->
